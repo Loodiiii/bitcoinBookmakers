@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+:root{
+    --bgd: rgb(19, 19, 19);
+}
+
+.main-container{
+    background: url(../images/background.jpg);
+    background-repeat: no-repeat;
+
+    background-position: center;
+    width: 100vw;
+    height: 125vh;
+    padding: 0 25%;
+    padding-top: 40px;
+}
+
+#mainAnchor{
+    overflow: hidden;
+}
+
+/* Header */
+
+.logo{
+    background: url(../images/LogoFull.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 335px;
+    height: 145px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.providing{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 27%;
+}
+
+.header-flex div div{
+    font-size: 20px;
+}
+
+.btcCounter img{
+    height: 80px;
+}
+
+.ethCounter img{
+    height: 100px;
+}
+
+.btcashCounter img{
+    width: 120px;
+}
+
+.rippleCounter img{
+    height: 75px;
+}
+
+.header-flex-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 140px;
+}
+
+/* GRID */
+
+
+.grid-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cloudBet{
+    background: url(../images/cloud-bet.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 30%;
+    height: 170px;
+}
+
+.cloud-right{
+    width: 70%;
+    height: 170px;
+    background: rgba(74, 76, 80, 1);
+}
+
+.singleGridItem{
+    background: rgb(74, 76, 80);
+}
