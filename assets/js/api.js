@@ -14,16 +14,14 @@ fetch("https://bitpay.com/api/rates")
                 btc.innerHTML = "$ " + crypto.rate;
             }
             if(crypto.code == "ETH"){
-                eth.innerHTML = "$ " + (data[2].rate / crypto.rate).toFixed(3);
+                eth.innerHTML = "$ " + (data[2].rate / crypto.rate).toFixed(2);
             }
-
             if(crypto.code == "BCH"){
-                bch.innerHTML = "$ " + (data[2].rate / crypto.rate).toFixed(3);
+                bch.innerHTML = "$ " + (data[2].rate / crypto.rate).toFixed(2);
             }
             if(crypto.code == "XRP"){
-                xrp.innerHTML = "$ " + (data[2].rate / crypto.rate).toFixed(3);
+                xrp.innerHTML = "$ " + (data[2].rate / crypto.rate).toFixed(2);
             }
         
         })
-
 })
