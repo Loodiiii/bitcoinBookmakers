@@ -172,12 +172,51 @@ header{
     border: 4px solid rgb(52, 52, 52);
 }
 
+.logo1{
+    background: url(../images/logo1.png);
+}
+
+.logo2{
+    background: url(../images/logo2.png);
+}
+
+.logo3{
+    background: url(../images/logo3.png);
+}
+
+.logo4{
+    background: url(../images/logo4.png);
+}
+
+.logo5{
+    background: url(../images/logo5.png);
+}
+
+.logo6{
+    background: url(../images/logo6.png);
+}
+
+.logo7{
+    background: url(../images/logo7.png);
+}
+
+.logo8{
+    background: url(../images/logo8.png);
+}
+
+.logo9{
+    background: url(../images/logo9.png);
+}
+
 .item-logo{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50%;
     width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .item-black{
@@ -341,7 +380,7 @@ header{
         flex-direction: column;
     }
     .item{
-        width: 90%;
+        width: 60%;
     }
     .item + .item{
         margin-top: 30px;
@@ -364,7 +403,7 @@ header{
         width: 320px;
         height: 130px;
         margin: 60px auto;
-        margin-bottom: 0;
+        margin-bottom: 30px;
     }
     header{
         justify-content: space-between;
