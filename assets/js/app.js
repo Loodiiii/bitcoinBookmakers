@@ -57,7 +57,7 @@ function xBitCom(){
 }
 
 function cryptobet(){
-    window.open("https://refpaiozdg.top/L?tag=d_750007m_25437c_BitcoinBookmakers&site=750007&ad=25437", "_blank");
+    window.open("https://cryptobet.com/register/YAL_GERUD", "_blank");
 }
 
 function megaPari(){
@@ -82,6 +82,4 @@ item7.addEventListener("click", () => {
     
 })
 item8.addEventListener("click", betcoin);
-item9.addEventListener("click", () => {
-    
-})
+item9.addEventListener("click", cryptobet);

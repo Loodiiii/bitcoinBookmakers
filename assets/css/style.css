@@ -17,8 +17,8 @@ a{
     border: none;
 }
 
-html {
-    
+html html {
+    width: 50%;
 }
 
 :root{
